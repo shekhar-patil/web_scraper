@@ -1,22 +1,18 @@
 # WebScraper
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/web_scraper`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is Ruby WebSite Scraper CLI application.
 
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'web_scraper'
+We can use web_scraper utility to fetch scrape data as following:
+```
+$ web_scraper
+Commands:
+ web_scraper help [COMMAND]  # Describe available commands or one specific command
+ web_scraper scrape URL      # Scrap the given Url
 ```
 
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install web_scraper
-
+To fetch Images present in website we can use following command:
+```
+$ web_scraper scrape 'https://www.techsoro.com/'
+/img/avatar-icon.png
+/img/MyPic.jpg
+```
