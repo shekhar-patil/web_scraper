@@ -28,4 +28,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "rspec", "~> 3.2"
+  spec.add_dependency 'thor'
+  spec.add_dependency 'nokogiri'
+  spec.add_dependency 'open-uri'
+  spec.add_development_dependency 'pry'
 end

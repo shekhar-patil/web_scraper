@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require './lib/web_scraper.rb'
+WebScraper::CLI.start(ARGV)
